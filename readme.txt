@@ -1,0 +1,4 @@
+    This program is used to simulate microscopic raman spectrum. The basic ideas are as follows. First, we shell simulate electromagnetic field in material by FDTD method, meanwhile we'll get time domain distribution of electromagnetic field. Then we can stablish a mathematical model of microscopic raman spectrometer by Matlab. Finally combining with time domain distribution of electromagnetic field, we can solve this problem.
+
+    "in_pol.m" is a typical calculation of the mathematical model of microscopic raman spectrometer
+    "plt_depol.m " is a plot program,which should be used after "in_pol.m".
